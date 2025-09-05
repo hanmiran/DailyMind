@@ -1,4 +1,4 @@
-package com.dailymind;
+package com.hanmiran.dailymind;
 
 import android.os.Build;
 import android.os.Bundle;
