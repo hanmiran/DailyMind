@@ -30,9 +30,6 @@ jobs:
         eas-version: latest
         token: ${{ secrets.EXPO_TOKEN }}
         
-    - name: Configure EAS
-      run: eas build:configure
-        
     - name: Build APK
       run: eas build --platform android --profile preview --non-interactive
       
