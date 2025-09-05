@@ -33,7 +33,7 @@ jobs:
     - name: Login to EAS
       run: |
         echo "EXPO_TOKEN=${{ secrets.EXPO_TOKEN }}" >> .env
-        eas login --non-interactive
+        eas login
         
     - name: Configure EAS
       run: eas build:configure
