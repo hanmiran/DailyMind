@@ -41,6 +41,10 @@
       "bundler": "metro"
     },
     "plugins": [],
+    "autolinking": {
+      "exclude": [],
+      "includePackages": ["expo-modules-core"]
+    },
     "extra": {
       "eas": {
         "projectId": "86133113-174f-472c-a693-adf358498330"
