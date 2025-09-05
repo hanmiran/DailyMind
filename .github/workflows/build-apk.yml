@@ -33,10 +33,10 @@ jobs:
     - name: Configure EAS
       run: |
         echo "EXPO_TOKEN=${{ secrets.EXPO_TOKEN }}" >> .env
-        eas build:configure --non-interactive
+        eas build:configure
         
     - name: Build APK
-      run: eas build --platform android --profile preview --non-interactive
+      run: eas build --platform android --profile preview
       
     - name: Download APK
       run: |
