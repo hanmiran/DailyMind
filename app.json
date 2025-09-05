@@ -16,14 +16,25 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.dailymind.app"
+      "bundleIdentifier": "com.hanmiran.dailymind",
+      "buildNumber": "1",
+      "deploymentTarget": "13.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#6366f1"
       },
-      "package": "com.dailymind.app"
+      "package": "com.hanmiran.dailymind",
+      "versionCode": 1,
+      "compileSdkVersion": 34,
+      "targetSdkVersion": 34,
+      "minSdkVersion": 21,
+      "permissions": [
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png",
